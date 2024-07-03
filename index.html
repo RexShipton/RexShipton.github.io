@@ -1,7 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rex Shipton - Web Developer Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section-title {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .profile-pic {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .skills, .experience, .education, .volunteer {
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <h1>Rex Shipton</h1>
+        <p>Web Developer</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#volunteer">Volunteer Work</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <img src="profile-pic.jpg" alt="Rex Shipton" class="profile-pic">
+            <p>Hi, I'm Rex Shipton, a passionate web developer with a degree in Software Development from Northcentral Technical College. I graduated in 2023 and have been creating GameJam games using the Godot game engine in my free time. I am proficient in HTML, CSS, JavaScript, C#, Python, and GDScript.</p>
+        </section>
+        <section id="skills" class="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C#</li>
+                <li>Python</li>
+                <li>GDScript</li>
+            </ul>
+        </section>
+        <section id="experience" class="experience">
+            <h2 class="section-title">Experience</h2>
+            <p>I have created several GameJam games using the Godot game engine. You can check out my projects on my GitHub or GameJam profile.</p>
+        </section>
+        <section id="education" class="education">
+            <h2 class="section-title">Education</h2>
+            <p>Northcentral Technical College, Degree in Software Development, Graduated 2023</p>
+            <p>Colby High School, Graduated 2014</p>
+        </section>
+        <section id="volunteer" class="volunteer">
+            <h2 class="section-title">Volunteer Work</h2>
+            <p>I was a Boy Scout in my youth and attained the rank of Eagle Scout. I currently volunteer as a Scoutmaster and leader of a Venture Crew.</p>
+        </section>
+        <section id="contact">
+            <h2 class="section-title">Contact</h2>
+            <p>You can reach me at <a href="mailto:rex.shipton@example.com">rex.shipton@example.com</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Rex Shipton. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
